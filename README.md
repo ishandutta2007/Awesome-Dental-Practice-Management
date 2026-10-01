@@ -1,211 +1,86 @@
-# Awesome-Dental-Practice-Management
+# 🦷 Awesome Dental Practice Management 🏥
 
-## Top Dental Practice Management Platforms Ecosystem
+![Awesome Dental Practice Management Banner](./assets/banner.svg)
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Dental-Practice-Management"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Dental-Practice-Management?style=social" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 📌 Overview & Ecosystem Guide
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Clinical Charting, Appointment Scheduling, Billing & Patient Records*
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Dental Practice Management**. These tools help dental practices manage patient records, schedule appointments, chart treatments, process insurance claims, and handle billing.
-
-
-
-**Examples** include Dentrix, Open Dental, Curve Dental, Denticon, CareStack, tab32, Dentally, Eaglesoft, Practice-Web, and Sensei Cloud (the category leaders).
-
-
-
-**Open-source emphasis**: Dental practice management has a **fragmented and historically significant open-source ecosystem**. **Open Dental** was the pioneer—released under GPL in 2003 and widely adopted as the affordable, self-hosted alternative—but **moved to a proprietary license in version 24.4 (2025)**, ending its two-decade run as open source . The community has responded with forks and alternatives: **DinoDent** (GPL-3, actively maintained) provides a modern C++/Qt6 dental management suite with full NHIF integration for Bulgarian practices . **OpenMolar** (GPLv3, Python/Qt5) remains the classic lightweight alternative for smaller clinics, though its second-generation rewrite is effectively dormant . **Apexo** (GPL-3, Flutter) offers a cross-platform, offline-capable solution with PocketBase backend . This section documents these solutions honestly.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Dentrix](https://www.dentrix.com/)**
-
-  The most widely used dental practice management software in North America. Comprehensive clinical, financial, and administrative tools with extensive imaging and insurance integrations.
-
-
-
-- **[Open Dental](https://www.opendental.com/)**
-
-  **Now proprietary (since version 24.4), but historically the leading open-source dental practice management system.** Offers on-premise deployment across Windows, Linux, and macOS with full data ownership, a documented REST API for third-party integration, and affordable pricing starting at **$179 per month** . The database remains open and well-documented even after the license change .
-
-
-
-- **[Curve Dental](https://www.curvedental.com/)**
-
-  **100% cloud-based dental practice management.** Provides scheduling, charting, billing, and reporting with any-device access.
-
-
-
-- **[Denticon](https://www.planetdds.com/)**
-
-  Cloud-based dental practice management for multi-location practices and DSOs. Provides enterprise-grade reporting and centralized management.
-
-
-
-- **[CareStack](https://carestack.com/)**
-
-  All-in-one cloud dental software. Combines practice management, patient engagement, and analytics in a unified platform.
-
-
-
-- **[tab32](https://tab32.com/)**
-
-  Cloud-based dental software with open API architecture. Provides practice management and patient communication tools.
-
-
-
-- **[Dentally](https://www.dentally.co/)**
-
-  Modern, cloud-based dental practice management. Popular in the UK and Europe with a clean interface and strong patient engagement features.
-
-
-
-- **[Eaglesoft](https://www.eaglesoft.net/)**
-
-  Dental practice management software from Patterson Dental. Provides clinical charting, scheduling, and billing with Patterson ecosystem integration.
-
-
-
-- **[Practice-Web](https://www.practice-web.com/)**
-
-  Dental practice management software offering on-premise and cloud options with flexible pricing.
-
-
-
-- **[Sensei Cloud](https://www.sensei.cloud/)**
-
-  Cloud-based dental practice management from Carestream Dental. Provides imaging integration and clinical workflows.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Dental Practice Management Systems
-
-
-
-- **[DinoDent](https://github.com/thefinalcutbg/DinoDent)**  
-
-  **Actively maintained open-source dental practice management software (GPL-3).** Written in **C++ with Qt6 Framework (6.8+)**. **Key features**: Dental status and procedure history; periodontal status; ePrescription; financial management (invoices, debit/credit notifications); integration with electronic signatures using **PKCS11 standard**; full **NHIF API integration** (Bulgarian national health insurance); multiple practices and user accounts; **NHIS integration** . **Status**: Actively developed (recent commits September 2026). A separate **QDento** version removes Bulgarian healthcare-specific functionality for international use .
-
-
-
-- **[OpenMolar](https://github.com/onlyjob/openmolar1)**  
-
-  **The classic open-source dental practice management system (GPLv3).** Written in **Python 3 with Qt5** and a **MySQL backend**. **OpenMolar1** is the original project—still functional and used in small clinics, though development continues as a hobby project . **Key features**: Patient records, appointment scheduling, treatment charting with ISO standard tooth notation, multi-language support (including Simplified Chinese), AES-256 encrypted data storage, and automated backups . **Lightweight**: Runs on **2-core CPU + 4GB RAM** . **OpenMolar2** was a complete rewrite using PostgreSQL but is effectively a dead project .
-
-
-
-- **[Apexo](https://github.com/alselawi/apexo-flutter)**  
-
-  **Cross-platform dental clinic management software (GPL-3).** Built with **Dart and Flutter** for multi-platform deployment (Windows, Android; Web partial; iOS/MacOS planned). **Key features**: Patient management, appointment scheduling, photo attachments, multiple doctors and users, **offline operation**, **multi-device synchronization**, multi-lingual support, secure with backups . **Backend**: **PocketBase** (self-hosted) . **Status**: Actively developed by a practicing dentist in Mosul, Iraq .
-
-
-
-- **[Clear.Dental](https://clear.dental/)**  
-
-  **Open-source Electronic Health Record (EHR) suite designed specifically for dental practices by practicing dentists.** **Free, customizable platform** running natively on **Linux**, featuring **hybrid cloud capabilities via distributed file systems** and **touch-screen optimized interfaces** to streamline clinical workflows .
-
-
-
-### Basic Clinic Management Systems
-
-
-
-- **[Generic-DCMS](https://github.com/cld-kent0/Generic-DCMS)**  
-
-  **Minimal standalone Dental Clinic Management System (MIT License).** Intended for streamlined operations of a dental clinic. **Features**: User account management (registration, login, recovery); add/remove/update patient records; manage available treatments; schedule patient appointments; prescribe treatments; **database backup & recovery** . Developed as coursework at Cavite State University .
-
-
-
-- **[Dental Diary](https://github.com/mhzsm7/Dental-Diary)**  
-
-  **Full-stack patient management application for dental clinics.** Built with **Flutter (frontend)** and **PHP (backend)**. Enables management of patient records, appointments, treatments, and billing through **secure REST API integration**. Designed with scalable architecture and optimized performance .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Full-Featured**: **DinoDent** (GPL-3, C++/Qt6, actively maintained, NHIF integration) , **Apexo** (GPL-3, Flutter, offline-first) , **Clear.Dental** (Linux-native, dentist-designed) .
-
-- **Classic**: **OpenMolar1** (GPLv3, Python/Qt5, lightweight, still functional) .
-
-- **Basic/Educational**: **Generic-DCMS** (MIT, minimal standalone) , **Dental Diary** (Flutter + PHP) .
-
-- **Note**: **Open Dental** is no longer open source as of v24.4, but **etnguyen03/opendental** maintains a fork of the last GPL version (24.3) .
-
-
-
-**Frameworks for building custom systems**: Combine **DinoDent** for a modern, actively maintained dental management suite with electronic signature support, **Apexo** for cross-platform offline-first clinic management, **OpenMolar1** for lightweight legacy deployments, and **Clear.Dental** for Linux-native clinical workflows. Add **MySQL/PostgreSQL** for persistence and **Docker** for deployment where applicable.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Dental practice management platforms handle sensitive patient health information; ensure compliance with HIPAA, GDPR, and applicable regional healthcare regulations.
-
-- **Open-source reality**: The open-source ecosystem for dental practice management is **fragmented and historically significant but currently in transition**. **Open Dental**—the most widely adopted open-source dental software—moved to a proprietary license in v24.4, ending its GPL era . The community has responded with **DinoDent** (actively maintained, GPL-3, full NHIF integration) and **Apexo** (cross-platform, GPL-3, offline-first) . **OpenMolar1** remains functional for smaller clinics but is no longer actively developed at scale . **Clear.Dental** provides a Linux-native dentist-designed alternative . However, **commercial platforms** (Dentrix, Curve Dental, Denticon, CareStack) provide **comprehensive imaging integration, insurance claim processing, DSO multi-location management, and dedicated support** that open-source alternatives require additional tooling to match. The open-source path is most viable for **small practices, international markets (DinoDent for Bulgaria), or organizations with strong technical capacity** seeking full data ownership.
-
-
+Welcome to the comprehensive, SEO-optimized list of **Dental Practice Management Software (DPMS)**, clinical charting solutions, electronic health record (EHR) platforms, and patient engagement tools. Whether you are running a solo private dental clinic, managing a multi-location Dental Support Organization (DSO), or developing open-source medical software, this guide covers both leading enterprise SaaS platforms and active open-source GitHub projects. ⚡
 
 ---
 
+## 📊 SaaS & Hosted Dental Platforms
 
+### 📈 Market Size & Industry Dynamics
+The global **Dental Practice Management Software Market** is estimated at **~$2.2 Billion** (2025/2026) and is projected to expand to **$4.5B+ by 2034** (CAGR ~8.8%). The sector is **moderately fragmented**, featuring established corporate leaders alongside agile cloud-native platforms.
 
-**Made for dentists, practice managers, dental IT specialists, and clinical software developers.**
+| Software Platform 🏥 | Company Scale (Revenue/Valuation) 💰 | Pricing / Starting Tier 💵 | Free Tier / Trial Limit ⏱️ | Key Capabilities & Features 🛠️ |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Dentrix](https://www.dentrix.com/)** | **~$12.8 Billion** (Parent Henry Schein) | ~$150 – $300 / month / user | No free trial (Personalized live demo) | Enterprise market leader, imaging suite, insurance integration, DSO workflows |
+| **[Eaglesoft](https://www.eaglesoft.net/)** | **~$6.3 Billion** (Parent Patterson Dental) | ~$200 – $350 / month / location | No free trial (Consultation & demo) | Comprehensive clinical charting, billing, Patterson distribution ecosystem integration |
+| **[Sensei Cloud](https://www.sensei.cloud/)** | **~$2.0 Billion** (Parent Carestream Dental) | ~$250 – $400 / month | No free trial (Guided live demo) | Cloud PMS by Carestream, advanced 3D/2D imaging integration, clinical workflows |
+| **[CareStack](https://carestack.com/)** | **~$100 Million – $155 Million** | ~$698 / month / practice | 14-day trial available upon request | All-in-one cloud platform, patient engagement, revenue cycle management (RCM) |
+| **[Denticon](https://www.planetdds.com/)** | **~$100 Million ARR** (Planet DDS) | ~$280 / month / location | No free trial (Enterprise demo) | DSO-focused enterprise cloud PMS, centralized reporting, multi-location security |
+| **[Curve Dental](https://www.curvedental.com/)** | **~$100 Million ARR** | ~$200 – $350 / month / dentist | No free trial (Interactive web demo) | 100% cloud-native PMS, digital charting, smart scheduling, web access |
+| **[Open Dental](https://www.opendental.com/)** | **~$30 Million – $50 Million** | **$179 / month** per location | Full free test drive (Demo mode & test database) | High data control, documented REST API, SQL queries, self-hosted or cloud |
+| **[tab32](https://tab32.com/)** | **~$15 Million – $25 Million** | **$125 / month** per user | 14-day free trial | Serverless cloud PMS, open API architecture, patient communication suite |
+| **[Dentally](https://www.dentally.co/)** | **~$10 Million – $20 Million** | ~$150 / month (£120/mo) | No free trial (Personalized demo) | Cloud-based PMS popular in UK & Europe, modern UI, online patient portal |
+| **[Practice-Web](https://www.practice-web.com/)** | **~$5 Million – $10 Million** | **$149 / month** | 30-day trial mode with demo data | Affordable on-premise/cloud PMS, automated patient messaging, tooth charting |
 
-Let's make dental practice management more open, transparent, and accessible.
+---
+
+## 💻 Open-Source GitHub Projects
+
+Below are open-source dental clinic software repositories sorted by GitHub community popularity (star count descending). ⭐
+
+| Repository & Link 📦 | GitHub Stars 🌟 | Primary Tech Stack 🛠️ | License 📜 | Description & Key Features 📝 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[dentalpin/dentalpin](https://github.com/dentalpin/dentalpin)** | [![Stars](https://img.shields.io/github/stars/dentalpin/dentalpin?style=social&color=white)](https://github.com/dentalpin/dentalpin/stargazers) | TypeScript, React | AGPL-3.0 | AI-native open-source dental practice management software with smart scheduling & clinical notes. |
+| **[alselawi/apexo-flutter](https://github.com/alselawi/apexo-flutter)** | [![Stars](https://img.shields.io/github/stars/alselawi/apexo-flutter?style=social&color=white)](https://github.com/alselawi/apexo-flutter/stargazers) | Dart, Flutter, PocketBase | GPL-3.0 | Cross-platform, offline-first dental clinic manager for Windows, Android, and Web. |
+| **[OpenDental/opendental](https://github.com/OpenDental/opendental)** | [![Stars](https://img.shields.io/github/stars/OpenDental/opendental?style=social&color=white)](https://github.com/OpenDental/opendental/stargazers) | C#, .NET, MySQL | Proprietary (GPL v24.3) | Source mirror of the classic Open Dental software suite. |
+| **[ganraj21/Dental_Clinic](https://github.com/ganraj21/Dental_Clinic)** | [![Stars](https://img.shields.io/github/stars/ganraj21/Dental_Clinic?style=social&color=white)](https://github.com/ganraj21/Dental_Clinic/stargazers) | JavaScript, HTML, CSS | MIT | Modern single-page material design frontend template for dental clinic websites. |
+| **[ambientWave/Odoo-Dental-Clinic](https://github.com/ambientWave/Odoo-Dental-Clinic-Managment-System-With-REST-API)** | [![Stars](https://img.shields.io/github/stars/ambientWave/Odoo-Dental-Clinic-Managment-System-With-REST-API?style=social&color=white)](https://github.com/ambientWave/Odoo-Dental-Clinic-Managment-System-With-REST-API/stargazers) | Python, Odoo ERP | LGPL-3.0 | Dental clinic management module integrated with Odoo ERP and REST API. |
+| **[ImagingYeditepe/Segmentation-of-Teeth](https://github.com/ImagingYeditepe/Segmentation-of-Teeth-in-Panoramic-X-ray-Image)** | [![Stars](https://img.shields.io/github/stars/ImagingYeditepe/Segmentation-of-Teeth-in-Panoramic-X-ray-Image?style=social&color=white)](https://github.com/ImagingYeditepe/Segmentation-of-Teeth-in-Panoramic-X-ray-Image/stargazers) | Python, PyTorch / U-Net | MIT | Deep learning U-Net model for automatic semantic segmentation of panoramic dental X-rays. |
+| **[thefinalcutbg/DinoDent](https://github.com/thefinalcutbg/DinoDent)** | [![Stars](https://img.shields.io/github/stars/thefinalcutbg/DinoDent?style=social&color=white)](https://github.com/thefinalcutbg/DinoDent/stargazers) | C++, Qt6 | GPL-3.0 | Modern C++/Qt6 dental practice suite with e-signatures, periodontal charting, and NHIF API integration. |
+| **[clawnify/OpenDentist](https://github.com/clawnify/OpenDentist)** | [![Stars](https://img.shields.io/github/stars/clawnify/OpenDentist?style=social&color=white)](https://github.com/clawnify/OpenDentist/stargazers) | JavaScript, React, Node.js | MIT | Lightweight web-based dental practice management platform built with React. |
+| **[mhzsm7/Dental-Diary](https://github.com/mhzsm7/Dental-Diary)** | [![Stars](https://img.shields.io/github/stars/mhzsm7/Dental-Diary?style=social&color=white)](https://github.com/mhzsm7/Dental-Diary/stargazers) | Dart, Flutter, PHP | MIT | Full-stack patient and appointment booking application for dental clinics. |
+| **[onlyjob/openmolar1](https://github.com/onlyjob/openmolar1)** | [![Stars](https://img.shields.io/github/stars/onlyjob/openmolar1?style=social&color=white)](https://github.com/onlyjob/openmolar1/stargazers) | Python, Qt5, MySQL | GPLv3 | Lightweight classic open-source dental software with ISO tooth charting. |
+| **[cld-kent0/Generic-DCMS](https://github.com/cld-kent0/Generic-DCMS)** | [![Stars](https://img.shields.io/github/stars/cld-kent0/Generic-DCMS?style=social&color=white)](https://github.com/cld-kent0/Generic-DCMS/stargazers) | PHP, MySQL | MIT | Minimal standalone dental clinic management system for patient records and billing. |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! 🎉
+1. Fork this repository 🍴
+2. Add your SaaS or Open-Source project to `README.md` following the table structure 📝
+3. Submit a Pull Request with a short summary of changes 🚀
+
+---
+
+## 💖 Support & Community
+
+If you find this repository helpful, please consider showing your support:
+* ⭐ **Star** this repository on GitHub
+* 🍴 **Fork** it to share with your colleagues
+* 💬 Join the conversation on [Discord](https://discord.gg/jc4xtF58Ve)
+* ☕ Sponsor or buy me a coffee via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007)
+
+Thank you for helping make dental practice software more accessible, transparent, and open! ❤️
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Dental-Practice-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Dental-Practice-Management&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+This repository is for informational and educational purposes. Ensure full HIPAA, GDPR, and local medical privacy compliance when deploying dental practice software handling protected health information (PHI).

@@ -36,9 +36,9 @@ The global **Dental Practice Management Software Market** is estimated at **~$2.
 
 ## 💻 Open-Source GitHub Projects
 
-Below are open-source dental clinic software repositories sorted by GitHub community popularity (star count descending). ⭐
+Below are open-source dental clinic software repositories sorted by GitHub community popularity (Stars_Count descending). ⭐
 
-| Repository & Link 📦 | GitHub Stars 🌟 | Primary Tech Stack 🛠️ | License 📜 | Description & Key Features 📝 |
+| Repository & Link 📦 | GitHub_Stars 🌟 | Primary Tech Stack 🛠️ | License 📜 | Description & Key Features 📝 |
 | :--- | :--- | :--- | :--- | :--- |
 | **[dentalpin/dentalpin](https://github.com/dentalpin/dentalpin)** | [![Stars](https://img.shields.io/github/stars/dentalpin/dentalpin?style=social&color=white)](https://github.com/dentalpin/dentalpin/stargazers) | TypeScript, React | AGPL-3.0 | AI-native open-source dental practice management software with smart scheduling & clinical notes. |
 | **[alselawi/apexo-flutter](https://github.com/alselawi/apexo-flutter)** | [![Stars](https://img.shields.io/github/stars/alselawi/apexo-flutter?style=social&color=white)](https://github.com/alselawi/apexo-flutter/stargazers) | Dart, Flutter, PocketBase | GPL-3.0 | Cross-platform, offline-first dental clinic manager for Windows, Android, and Web. |
